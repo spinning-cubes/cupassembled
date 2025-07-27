@@ -1,34 +1,35 @@
-## CupScript
+## CupAssembled
 
-CupScript is a simple scripting language made using python
+CupAssembled is a simple scripting language made using python
 
 It includes some basic functionality like variables, loops, and some other built in functions but it is not a full language.
-I made it to learn how programming languages work and how to make a language specifically interpreted languages.
-
-**NOTE: This is not meant for general use its just a fun personal project but you're free to try it out or use it if you can**
+This language is for low-level uses and can be nice if you wanted to make a (basic) operating system. It assembles the code to NASM and compiles it. The end result is a bootable image.
 
 Heres an installation/run guide if you want to try it out.
 
 # Installation:
 
-    git clone https://github.com/Fus3n/cupscript
+    git clone https://github.com/spinning-cubes/cupassembled.git
     cd cupscript
 
-there are no requirements, but you will need python 3.9 or higher to run it.
+You will need:
+1. Python 3.9 or higher
+2. NASM
+3. QEMU (optional, only if you want to use the emulator feature)
 
-# Run Scripts/cupshell:
+# Assemble Scripts/cupshell:
 
     python3 cup.py
     python3 cup.py <filename>
 
 
-run file from cupshell: Run("filename")
+assemble file from cupshell: Run("filename")
 
 
 # Syntax
 
 Examples can be found in the the [example](https://github.com/Fus3n/cupscript/blob/main/examples) directory.
-I will be adding more examples soon.
+I may add more examples soon.
 
 
 # Features
@@ -101,4 +102,4 @@ end
 ```
 
 
-Check [example](https://github.com/Fus3n/cupscript/blob/main/examples) folder for more information / Full Overview
+Check [example](https://github.com/spinning-cubes/cupassembled/blob/main/examples) folder for more information / Full Overview

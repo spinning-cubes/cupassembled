@@ -1,12 +1,3 @@
-section .data
-    msg db "[[TEXT]]", 0
-
-section .text
-    global _start
-
-_start:
-    mov si, msg
-
 print_loop_[[NAME]]:
     mov al, [si]
     cmp al, 0

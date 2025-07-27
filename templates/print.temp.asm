@@ -1,5 +1,3 @@
-org 0x7c00
-
 section .data
     msg db "[[TEXT]]", 0
 

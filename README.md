@@ -1,3 +1,4 @@
+# NOT FINISHED
 ## CupAssembled
 
 CupAssembled is a simple scripting language made using python
